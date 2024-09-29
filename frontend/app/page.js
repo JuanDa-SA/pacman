@@ -20,6 +20,7 @@ export default function Home() {
       return () => clearInterval(interval);
   }, [posX, posY]);
 
+  //Probando github
   return (
     <div className={styles.page}>
       PacMan
